@@ -2,9 +2,9 @@
 
 #loading various forms of data
 read.pkgs <- c("readstata13", # STATA version 13 files
-              "readxl",      # read excel files
-              "acs")        # census acs data files
-
+              "readxl",       # read excel files
+              "acs",          # census acs data files
+              "openxlsx")     # write excel workbook with sheets
 
 #data cleaning/processing
 cln.pkgs <- c("dplyr")
@@ -21,7 +21,7 @@ gph.pkgs <- c("ggplot2",  # pretty graphics
 
 
 #Analysis
-ana.pkgs <- c("zoo")  
+ana.pkgs <- c("zoo","boot","class","quantmode","leaps","glmnet","pls")  
 
 
 #install packages
